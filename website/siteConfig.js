@@ -37,7 +37,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'quickstart', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {page: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
     {href: 'https://medium.com/palo-alto-networks-developer-blog', label: 'Blog'},
     {href: repoUrl, label: 'GitHub'},
@@ -105,6 +105,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  wrapPagesHTML: true,
 };
 
 module.exports = siteConfig;
