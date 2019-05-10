@@ -1,0 +1,9 @@
+{
+  "docs": {
+    "PAN Cloud Python SDK": ["quickstart", "credentials"],
+    "Best Practices": ["security"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
