@@ -20,7 +20,7 @@ const users = [
   },
 ];
 
-const baseUrl = '/cortex/';
+const baseUrl = '/';
 const repoUrl = 'https://github.com/PaloAltoNetworks';
 
 const siteConfig = {
