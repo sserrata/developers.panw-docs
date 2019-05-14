@@ -24,9 +24,9 @@ const baseUrl = '/';
 const repoUrl = 'https://github.com/PaloAltoNetworks';
 
 const siteConfig = {
-  title: 'Cortex for Develoeprs', // Title for your website.
+  title: 'Cortex for Developers', // Title for your website.
   disableHeaderTitle: true,
-  tagline: 'A site for learning empowering Cortex developers',
+  tagline: 'A site for empowering Cortex developers',
   url: 'https://developers.paloaltonetworks.com/cortex', // Your website URL
   baseUrl, // Base URL for your project */
   projectName: 'cortex-developer-docs',
