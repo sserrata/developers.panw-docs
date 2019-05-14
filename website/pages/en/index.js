@@ -128,12 +128,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Build on what’s happening in your cloud, endpoint & network.',
+            image: `${baseUrl}img/why-develop.png`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Why Develop on Cortex?',
           },
         ]}
       </Block>
@@ -157,11 +155,10 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            content: 'Quickly get started developing your own applications on Cortex.',
+            image: `${baseUrl}img/start-developing.png`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Start developing with Cortex',
           },
         ]}
       </Block>
@@ -171,22 +168,22 @@ class Index extends React.Component {
       <Block layout="threeColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'An open, continuous security platform to integrate rich context from cloud, endpoint and network data with global threat intelligence into every enterprise product, delivering better together experiences.',
+            image: `${baseUrl}img/what-is-cortex.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'What is Cortex?',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Increase your speed to market by avoiding the deployment of cloud, endpoint and network agents at your customers. Expand your value prop with threat intel in your product. Access 60,000+ customers worldwide.',
+            image: `${baseUrl}img/why-cortex.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Why Develop on Cortex?',
           },
           {
-            content: 'The content of my third feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Learn about use cases that our customers are looking for. Or create new scenarios that change how enterprises will see your product.',
+            image: `${baseUrl}img/cortex-use-cases.png`,
             imageAlign: 'top',
-            title: 'Feature Three',
+            title: 'Cortex Use Cases',
           },
         ]}
       </Block>
