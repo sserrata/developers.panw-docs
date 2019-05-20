@@ -7,7 +7,7 @@ sidebar_label: Quickstart
 ## Overview
 
 This page should give a good indication of how to get started with
-`pancloud`.
+`pancloud`!
 
 First off, ensure `pancloud` is `installed <installation>` and
 `up-to-date <installation>`.
