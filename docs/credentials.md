@@ -12,24 +12,24 @@ the Logging, Event and Directory Sync services.
 The `pancloud` SDK comes packaged with OAuth 2.0 support to ease the
 process of:
 
->   - Generating the authorization URL
->   - Exchanging and authorization code for tokens (authorization code
->     grant)
->   - Refreshing tokens
->   - Revoking tokens
->   - Token caching
->   - Using a custom credentials store (storage adapters)
+   - Generating the authorization URL
+   - Exchanging and authorization code for tokens (authorization code
+     grant)
+   - Refreshing tokens
+   - Revoking tokens
+   - Token caching
+   - Using a custom credentials store (storage adapters)
 
 ## Obtaining and Using Tokens
 
 Starting in version 1.5.0, `pancloud` now supports two types of
 credentials:
 
->   - OAuth 2.0 credentials (<span class="title-ref">client\_id</span>,
->     <span class="title-ref">client\_secret</span> and
->     <span class="title-ref">refresh\_token</span>)
->   - Developer Tokens (obtained from [API
->     Explorer](https://app.apiexplorer.rocks))
+   - OAuth 2.0 credentials (<span class="title-ref">client\_id</span>,
+     <span class="title-ref">client\_secret</span> and
+     <span class="title-ref">refresh\_token</span>)
+   - Developer Tokens (obtained from [API
+     Explorer](https://app.apiexplorer.rocks))
 
 <div class="note">
 
@@ -130,58 +130,58 @@ Explorer so it can be used to generate a
 
 ## Activating API Explorer
 
-> 1.  Login to the [Cortex Hub]():
->     
->     > ![image](../../_static/cortexhub.png)
-> 
-> 2.  Ensure both Logging and Directory Sync Service are activated:
->     
->     > ![image](../../_static/requirements.jpeg)
-> 
-> 3.  Activate API Explorer:
->     
->     > ![image](../../_static/activate.png)
-> 
-> 4.  Complete activation:
->     
->     > ![image](../../_static/activation.png)
-> 
-> 5.  Click tile to login to your API Explorer instance:
->     
->     > ![image](../../_static/redirectlogin.png)
-> 
-> 6.  Click the <span class="title-ref">Authorize</span> button
->     corresponding to your instance (if not already authorized):
->     
->     > ![image](../../_static/authorize.png)
-> 
-> 7.  Complete the authorization form (if not already authorized):
->     
->     > ![image](../../_static/authorization.png)
-> 
-> 8.  Give consent to API Explorer for accessing your data:
->     
->     > ![image](../../_static/consentform.png)
+1.  Login to the [Cortex Hub]():
+     
+    ![image](assets/cortexhub.png)
+ 
+2.  Ensure both Logging and Directory Sync Service are activated:
+     
+    ![image](assets/requirements.jpeg)
+ 
+3.  Activate API Explorer:
+     
+    ![image](assets/activate.png)
+ 
+4.  Complete activation:
+     
+    ![image](assets/activation.png)
+ 
+5.  Click tile to login to your API Explorer instance:
+     
+    ![image](assets/redirectlogin.png)
+ 
+6.  Click the <span class="title-ref">Authorize</span> button
+     corresponding to your instance (if not already authorized):
+     
+    ![image](assets/authorize.png)
+ 
+7.  Complete the authorization form (if not already authorized):
+     
+    ![image](assets/authorization.png)
+ 
+8.  Give consent to API Explorer for accessing your data:
+     
+    ![image](assets/consentform.png)
 
 Now that API Explorer has been authorized, let's move on to generate a
 <span class="title-ref">developer\_token</span>\!
 
 ## Generating a Developer Token
 
-> 1.  Click the <span class="title-ref">key</span> icon corresponding
->     with your authorized instance:
->     
->     > ![image](../../_static/generate.png)
-> 
-> 2.  Review the <span class="title-ref">NOTICE</span> and select an
->     appropriate expiration for your \`developer\_token\`:
->     
->     > ![image](../../_static/generation.png)
-> 
-> 3.  Click the <span class="title-ref">Generate</span> button to
->     generate your <span class="title-ref">developer\_token</span>.
->     Note that it will only be displayed once, so be sure to copy and
->     store it securely if appropriate.
+1.  Click the <span class="title-ref">key</span> icon corresponding
+     with your authorized instance:
+     
+    ![image](assets/generate.png)
+ 
+2.  Review the <span class="title-ref">NOTICE</span> and select an
+     appropriate expiration for your \`developer\_token\`:
+     
+    ![image](assets/generation.png)
+ 
+3.  Click the <span class="title-ref">Generate</span> button to
+    generate your <span class="title-ref">developer\_token</span>.
+    Note that it will only be displayed once, so be sure to copy and
+    store it securely if appropriate.
 
 <div class="note">
 
@@ -206,23 +206,23 @@ There are two primary ways to use a
   - Export a <span class="title-ref">PAN\_DEVELOPER\_TOKEN</span>
     environment variable
     
-    > 
-    > 
-    > ``` console
-    > export PAN_DEVELOPER_TOKEN=<your token>
-    > ```
+     
+     
+```console
+export PAN_DEVELOPER_TOKEN=<your token>
+```
 
   - Pass a <span class="title-ref">developer\_token</span> kwarg into
     your <span class="title-ref">Credentials</span> class constructor
     (as illustrated below):
     
-    > 
-    > 
-    > ``` python
-    > from pancloud import Credentials
-    > 
-    > c = Credentials(developer_token=<your token>)
-    > ```
+     
+     
+```python
+from pancloud import Credentials
+
+c = Credentials(developer_token=<your token>)
+```
 
 From this point forward, your <span class="title-ref">Credentials</span>
 object should be capable of obtaining and refreshing an
@@ -268,9 +268,9 @@ c = Credentials(
 
 2.  Credentials stored as environment variables:
     
-    >   - `PAN_REFRESH_TOKEN`
-    >   - `PAN_CLIENT_ID`
-    >   - `PAN_CLIENT_SECRET`
+       - `PAN_REFRESH_TOKEN`
+       - `PAN_CLIENT_ID`
+       - `PAN_CLIENT_SECRET`
 
 3.  Credentials stored in a credentials file
     (\~/.config/pancloud/credentials.json) or custom store:

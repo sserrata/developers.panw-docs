@@ -1,7 +1,8 @@
 {
   "docs": {
     "PAN Cloud Python SDK": ["quickstart", "credentials"],
-    "Best Practices": ["security"]
+    "Best Practices": ["security"],
+    "PAN-OS Automation": ["automate_ip_block"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
