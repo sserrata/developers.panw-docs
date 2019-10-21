@@ -1,7 +1,7 @@
 ---
 id: test
-title: Test
-sidebar_label: Test
+title: Ballmer
+sidebar_label: Ballmer Test
 ---
 ### by Steve Ballmer
 
