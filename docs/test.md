@@ -1,6 +1,6 @@
 ---
 id: test
-title: Test
+title: Ballmer Test
 sidebar_label: Test
 ---
 ### by Steve Ballmer - aka the best
