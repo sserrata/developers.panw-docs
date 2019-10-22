@@ -14,14 +14,10 @@ First off, ensure `pancloud` is `installed <installation>` and
 Let's start with a basic example.
 
 
-
-> Note:
-
 > The examples below assume the existence of a `Developer Token
 > <credentials>` or a credentials.json file that has been properly
 > `generated <credentials>`. Please see the `Credentials <credentials>`
 > page for specific usage details.
-
 
 
 ## Querying Logging Service
