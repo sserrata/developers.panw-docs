@@ -4,7 +4,7 @@ title: Automate IP blocking with PAN-OS
 sidebar_label: Automate IP Block Quickstart
 ---
 
-#### by Steve Ballmer
+#### by Steve Wozniak
 
 In this Quickstart guide we'll show how to integrate with Palo Alto Networks Next-Generation Firewalls to automatically block communications (incoming, outgoing or both) from/to specific IP addresses. This is common pattern used in partner and customer integrations to automate remediation based on external 
 
