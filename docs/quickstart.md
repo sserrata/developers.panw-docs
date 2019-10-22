@@ -5,6 +5,8 @@ sidebar_label: Quickstart
 ---
 ## Overview
 
+by Steven WQozniakl
+
 This page should give a good indication of how to get started with
 `pancloud`!
 
